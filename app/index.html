@@ -17,12 +17,160 @@
     <body>
         <div class="wrapper">
             <div class="main-content">
-                <h1>Hello, world!</h1>
+                <!-- Header -->
+                <header class="page-header">
+                    <div class="container-big">
+                        <a href="#" class="header-logo-link">
+                            <img src="img/logo.png" alt="logo" class="logo-img">
+                            <span class="header-logo-text">Сайт портфолио</span>
+                        </a>
+                        <ul class="socials">
+                            <li class="socials-item">
+                                <a href="#" class="social-link vk" target="_blank">Вконтакте</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="#" class="social-link tw" target="_blank">Twitter</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="#" class="social-link fb" target="_blank">Facebook</a>
+                            </li>
+                            <li class="socials-item">
+                                <a href="#" class="social-link gt" target="_blank">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+
+                <div class="container">
+                    <!-- Left Aside -->
+                    <aside class="sidebar">
+                        <!-- Navigation -->
+                        <nav class="navigation">
+                            <ul class="navigation-list">
+                                <li class="navigation-item current">
+                                    <a href="/" class="navigation-link">Обо мне</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="/my-work.html" class="navigation-link">Мои работы</a>
+                                </li>
+                                <li class="navigation-item">
+                                    <a href="/contact-me.html" class="navigation-link">Связаться со мной</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- Contacts -->
+                        <address class="contacts">
+                            <div class="contacts-header">
+                                <span class="contact-text">Контакты</span>
+                            </div>
+                            <ul class="contacts-list">
+                                <li class="contacts-item contacts-item-mail">
+                                    <a href="mailto:wishnevsky@gmail.com" class="contacts-link">
+                                        <span class="contact-text">wishnevsky@gmail.com</span>
+                                    </a>
+                                </li>
+                                <li class="contacts-item contacts-item-phone">
+                                    <a href="tel:+380987777777" class="contacts-link">
+                                        <span class="contact-text">+380987777777</span>
+                                    </a>
+                                </li>
+                                <li class="contacts-item contacts-item-skype">
+                                    <a href="skype:wishnevsky" class="contacts-link">
+                                        <span class="contact-text">wishnevsky</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </address>
+                    </aside>
+                    <!-- Variable Content -->
+                    <div class="variable-content">
+                        <!-- General Info -->
+                        <section class="aboutbox">
+                            <h2 class="aboutbox-header">Основная информация</h2>
+                            <div class="aboutbox-body clearfix">
+                                <div class="image-wrap">
+                                    <div class="avatar-box">
+                                        <img src="img/face.png" alt="Homer Simpson" class="avatar">
+                                    </div>
+                                </div>
+                                <div class="worksheet-wrap">
+                                    <ul class="worksheet-list">
+                                        <li class="worksheet-item clearfix">
+                                            <div class="worksheet-what">Меня зовут:</div>
+                                            <div class="worksheet-info">Роман Вишневский</div>
+                                        </li>
+                                        <li class="worksheet-item clearfix">
+                                            <div class="worksheet-what">Мой возраст:</div>
+                                            <div class="worksheet-info">35 лет</div>
+                                        </li>
+                                        <li class="worksheet-item clearfix">
+                                            <div class="worksheet-what">Мой город:</div>
+                                            <div class="worksheet-info">Ивано-Франковск, Украина</div>
+                                        </li>
+                                        <li class="worksheet-item clearfix">
+                                            <div class="worksheet-what">Моя специализация:</div>
+                                            <div class="worksheet-info">Frontend разработчик</div>
+                                        </li>
+                                        <li class="worksheet-item clearfix">
+                                            <div class="worksheet-what">Ключевые навыки:</div>
+                                            <div class="worksheet-info skills">
+                                                <ul class="skills-list">
+                                                    <li class="skill-item">html</li>
+                                                    <li class="skill-item">css</li>
+                                                    <li class="skill-item">javascript</li>
+                                                    <li class="skill-item">gulp</li>
+                                                    <li class="skill-item">git</li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Work Experience -->
+                        <section class="aboutbox">
+                            <h2 class="aboutbox-header">Опыт работы</h2>
+                            <div class="aboutbox-body">
+                                <ul class="aboutbox-list">
+                                    <li class="aboutbox-item icon-work">
+                                        <div class="where">"MANDRAGORA DESIGN" - 3D Modeler</div>
+                                        <div class="period">Март 2011 - Февраль 2016</div>
+                                    </li>
+                                    <li class="aboutbox-item icon-work">
+                                        <div class="where">"PAMIBRO" - Foreign Relations</div>
+                                        <div class="period">Апрель 2007 - Май 2008</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                        <!-- Education -->
+                        <section class="aboutbox">
+                            <h2 class="aboutbox-header">Образование</h2>
+                            <div class="aboutbox-body">
+                                <ul class="aboutbox-list">
+                                    <li class="aboutbox-item icon-college">
+                                        <div class="where">Базовое высшее - ПНУ</div>
+                                        <div class="period">2000 - 2004</div>
+                                    </li>
+                                    <li class="aboutbox-item icon-course">
+                                        <div class="where">Курсы "Вебразработка"</div>
+                                        <div class="period">Март 2016 - Июнь 2016</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="page-footer">
-
+            <div class="container">
+                <div class="lock">
+                    <a href="/login.html" class="lock-inner">Войти</a>
+                </div>
+                <div class="copyright">2016, Это мой сайт "Портфолио"</div>
+            </div>
         </div>
 
         <!--[if lt IE 8]>
